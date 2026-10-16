@@ -2,18 +2,20 @@
 
 TextUtils is a text manipulation web application developed using **React.js**. It allows users to perform common text operations, analyze text statistics, and preview their content through a simple, interactive interface.
 
+## 🌐 Live Demo
+
+**Try TextUtils here:** [https://mohittextutils.netlify.app/](https://mohittextutils.netlify.app/)
+
 ## 🚀 Features
 
-- **Convert to Uppercase:** Convert text into uppercase letters.
-- **Convert to Lowercase:** Convert text into lowercase letters.
-- **Clear Text:** Clear the text area instantly.
-- **Copy Text:** Copy the entered text to the clipboard.
-- **Remove Extra Spaces:** Remove repeated spaces between words.
-- **Word Counter:** Calculate the number of words in the text.
-- **Character Counter:** Display the total number of characters.
-- **Reading Time:** Estimate the time required to read the text.
-- **Text Preview:** Preview the entered or modified text.
-- **Dark Mode Support:** Adjust text and background colors according to the selected theme.
+- Convert text to uppercase and lowercase.
+- Remove extra spaces.
+- Copy text to the clipboard.
+- Clear text instantly.
+- Count words and characters.
+- Estimate reading time.
+- Preview text while editing.
+- Support for light and dark themes.
 
 ## 🛠️ Technologies Used
 
@@ -43,52 +45,20 @@ cd textutils-react
 npm install
 ```
 
-### 4. Run the Application
+### 4. Start the Application
 
 ```bash
 npm start
 ```
 
-Open `http://localhost:3000` in your browser to use the application.
-
-## 📂 Project Structure
-
-```text
-textutils-react/
-├── public/
-│   ├── index.html
-│   └── gemini-svg.svg
-├── src/
-│   ├── components/
-│   │   ├── About.js
-│   │   ├── Alert.js
-│   │   ├── Navbar.js
-│   │   └── TextForm.js
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
-
-## 🎯 Learning Objectives
-
-This project demonstrates practical use of React concepts, including:
-
-- Functional components
-- The `useState` Hook
-- Props and parent-child communication
-- Event handling
-- Controlled form elements
-- Conditional styling
-- Dynamic rendering
+Open `http://localhost:3000` in your browser.
 
 ## 👨‍💻 Author
 
 **Mohit Kumar Pani**
 
-GitHub: [mohitkpani](https://github.com/mohitkpani)
+- GitHub: [mohitkpani](https://github.com/mohitkpani)
+- Live Project: [TextUtils](https://mohittextutils.netlify.app/)
 
 ## 📄 License
 
